@@ -1,0 +1,510 @@
+
+/*
+ Theme Name:     Divi Child Theme
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    Divi Child Theme
+ Author:         Elegant Themes
+ Author URI:     https://www.elegantthemes.com
+ Template:       Divi
+ Version:        1.0.0
+*/
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+
+/*----------Header----------*/
+
+#main-header {
+	z-index: 9999!important;
+	border-top: 1px solid #e6e6e6;
+	-webkit-box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.14);
+	-moz-box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.14);
+	box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.14);
+}
+
+#main-header.et-fixed-header {
+    -webkit-box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.14)!important;
+    -moz-box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.14)!important;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.14)!important;
+}
+
+#top-header {
+    background-color: white;
+    padding-top: 0px!important;
+	z-index: 9998!important;
+}
+
+#top-header .container {
+    position: relative;
+    width: 100%;
+	max-width: 100%;
+    margin: auto;
+}
+
+.et_pb_fullwidth_header {
+    padding: 20px;
+    background-color: #243e8c;
+    border-bottom: 3px solid #c9bb69;
+	box-shadow: inset 0px 0px 70px rgba(0, 0, 0, 0.05);
+	-webkit-box-shadow: inset 0px 0px 70px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0px 0px 70px rgba(0, 0, 0, 0.05);
+}
+
+@media only screen and (max-width : 980px) {
+	
+	.et_pb_fullwidth_header {
+	    padding-top: 50px;
+	    padding-bottom: 0px;
+	}
+	
+	.et_pb_fullwidth_header .header-content {
+	    width: 100%!important;
+	}
+}
+
+.et_header_style_left #et-top-navigation {
+	    padding: 30px 0 0 0!important;
+}
+
+.et_header_style_left .et-fixed-header #et-top-navigation, .et_header_style_split .et-fixed-header #et-top-navigation {
+    padding-top: 20px!important;
+}
+
+.et_header_style_left #et-top-navigation nav>ul>li>a,.et_header_style_split #et-top-navigation nav>ul>li>a {
+	padding-bottom:42px !important;
+}
+
+@media only screen and (min-width: 981px)
+.et_header_style_left #et-top-navigation nav>ul>li>a, .et_header_style_split #et-top-navigation nav>ul>li>a {
+	padding-bottom:42px !important;
+}
+
+
+
+/* ----------- Custom Menu Styles -----------*/
+
+
+
+/*-----------------Menu Dropdown Icon---------------- */
+
+#top-header {
+    background-color: white;
+    padding-top: 0px!important;
+	z-index: 9998!important;
+}
+
+#top-header .container {
+    position: relative;
+    width: 100%;
+	max-width: 100%;
+    margin: auto;
+}
+
+.et_pb_fullwidth_header {
+    padding: 20px;
+    background-color: #243e8c;
+    border-bottom: 3px solid #c9bb69;
+	box-shadow: inset 0px 0px 70px rgba(0, 0, 0, 0.05);
+	-webkit-box-shadow: inset 0px 0px 70px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0px 0px 70px rgba(0, 0, 0, 0.05);
+}
+
+@media only screen and (max-width : 980px) {
+	
+	.et_pb_fullwidth_header {
+	    padding-top: 50px;
+	    padding-bottom: 0px;
+	}
+	
+	.et_pb_fullwidth_header .header-content {
+	    width: 100%!important;
+	}
+}
+
+	.et_header_style_left #et-top-navigation {
+			padding: 30px 0 0 0!important;
+	}
+
+	.et_header_style_left .et-fixed-header #et-top-navigation, .et_header_style_split .et-fixed-header #et-top-navigation {
+		padding-top: 20px!important;
+	}
+
+/*----------Top Menu----------*/
+
+#et-secondary-menu {
+    float: right;
+    margin-top: 3px;
+}
+
+#et-secondary-nav li {
+	color: #565656;
+	font-weight: 400;
+}
+
+#et-secondary-nav, #et-secondary-nav li {
+display: inline-block;
+margin-right: 15px;
+}
+ 
+
+#et-secondary-menu > ul > li a {
+    padding-bottom: 0px;
+    display: block;
+	font-size: 14px;
+	color: #565656;
+
+}
+
+#et-secondary-menu > ul > li a:hover {
+    color: #c9bb69;
+	opacity: 1!important;
+    -webkit-transition: all 0s ease-in-out;
+    -moz-transition: all 0s ease-in-out;
+    transition: all 0s ease-in-out;
+}
+
+#et-secondary-nav > li:last-child {
+    margin-right: -5px;
+}
+
+#et-info {
+    float: right;
+}
+
+#top-header .et-social-icons {
+    float: right;
+}
+
+#et-secondary-menu .et-social-icons {
+    margin-right: 20px;
+    margin-top: -7px;
+    margin-bottom: 3px;
+}
+
+#top-header .et-social-icon a {
+    font-size: 15px;
+}
+
+#top-header .et-social-icon a:hover {
+    font-size: 15px;
+    color: white;
+	text-decoration: none!important;
+}
+
+#top-header .et-social-icons li {
+    margin-left: 0px;
+    background-color: #F3E5E0;
+    padding: 9px;
+    border-radius: 100px;
+    width: 34px;
+    height: 34px;
+    margin-right: 0px;
+}
+
+#top-header .et-social-icons li:hover {
+    background-color: #F3E5E0;
+	color:white;
+}
+
+#top-header .et-cart-info {
+    margin-left: 15px;
+    float: right;
+    color: #243e8c;
+    margin-right: 10px;
+}
+
+.top-phone {
+	
+    width: 164px;
+    position: inherit!important;
+    float: right;
+}
+
+.top-phone:hover {
+	
+	background-color: white!important;
+}
+
+.top-phone a {
+    color: #565656!important;
+	font-size: 18px!important;
+}
+
+.top-phone li a:hover {
+    color: #ffffff!important;
+	opacity: 0.8;
+	text-decoration: none!important;
+}
+
+.top-phone:before {
+    font-family: 'ETmodules';
+    content: "\e090";
+    margin-right: 2px;
+    color: #565656;
+    font-size: 18px;
+    float: left;
+}
+
+/*.top-my-account {
+	
+    width: 125px;
+    position: inherit!important;
+    float: right;
+}
+
+.top-my-account:hover {
+	opacity:0.8;
+	background-color: white!important;
+}
+
+.top-my-account a {
+	color: #ffffff!important;
+    background-color: #565656;
+    font-size: 16px!important;
+    padding: 5px!important;
+    text-align: center;
+}
+*/
+
+.et-cart-info span {
+    position: relative;
+}
+
+.et-cart-info span:hover {
+    color: #c9bb69;
+}
+
+.et-cart-info span:before {
+    margin-right: 5px;
+    content: "\e07a";
+}
+
+
+/*----------Logo----------*/
+
+.et_fixed_nav #logo {
+    max-height: 175px!important;
+    margin-top: -95px;
+	background-color: white;
+}
+
+.et-fixed-header #logo {
+    max-height: 122px!important;
+    margin-top: -73px;
+}
+
+/*----------Menu Tablet Sizes----------*/
+
+@media only screen and (max-width : 1196px) {
+	
+	#top-menu li {
+	    padding-right: 12px;
+	}
+
+}
+
+@media only screen and (max-width : 1080px) {
+	
+	#top-menu li {
+	    padding-right: 8px;
+	}
+	
+	.et_fixed_nav #logo {
+	    max-height: 90px!important;
+		margin-top: -54px;
+		margin-left: -20px;
+	}
+
+	#top-menu li a {
+	    font-size: 16px;
+	}
+	
+	#et_search_icon {display: none;}
+	
+	nav#top-menu-nav {
+	    float: right;
+	}
+}
+
+/*----------Menu----------*/
+
+#top-menu a {
+color: #243e8c;
+}
+
+#top-menu a:hover {
+    color: #f2cabc;
+	opacity: 1!important;
+}
+
+#top-menu .menu-item-has-children > a:first-child:after, #et-secondary-nav .menu-item-has-children > a:first-child:after {
+    color: #c9bb69;
+}
+
+#et_search_icon:hover {
+	color: #f2cabc!important;
+	
+}
+
+.et-search-form input {
+    border: 1px solid #d8d8d8;
+    height: 45px;
+    border-radius: 10px;
+    padding: 12px;
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+/*----------Sub Menu----------*/
+
+#top-menu li li a {
+    width: 200px;
+    padding: 6px 20px;
+    border: 1px solid rgba(128, 128, 128, 0.21);
+    margin-bottom: 10px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+#top-menu li li a:hover {
+	color: white!important;
+	background-color: #f2cabc!important;
+}
+
+.nav li ul {
+    width: 240px;
+    border-top: 0px solid white!important;
+    background-color: rgba(255, 255, 255, 0.98);
+	right: -55px!important;
+}
+
+.nav ul li a:hover, .et_mobile_menu li a:hover {
+    opacity: 1!important;
+}
+
+
+
+/* ---------- Custom Modal Login ---------- */
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #565656;
+	float:right;
+    color: #ffffff;
+    padding: 5px!important;
+	font-size:15px!important;
+    margin: 0;
+    border: none;
+    width: 125px;
+    position: inherit!important;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.sisterhood-evolution {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
