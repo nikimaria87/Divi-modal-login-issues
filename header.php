@@ -77,9 +77,10 @@
 
 			<?php endif; // true === $et_contact_info_defined ?>
 
-				<!-- Add Modal Login -->
+
+<!------------------------------------------ Add Modal Login ------------------------------------>
 				
-				<div class="account-login-modal"><button onclick="document.getElementById('modalMyAccount').style.display='block'">My Account</button></div>
+				<div class="account-login-modal"><button onclick="document.getElementById('modalMyAccount').style.display='block'" class="my-account-btn">My Account</button></div>
 				
 				<!-- Inside Login Modal -->
 				<div id="modalMyAccount" class="modal">
@@ -97,15 +98,16 @@
 					  <label for="psw"><b>Password</b></label>
 					  <input type="password" placeholder="Enter Password" name="psw" required>
 						
-					  <button type="submit" onclick="">Login</button>
+					  <button type="submit" onclick="" class="login-form-btn">Login</button>
 					  <label>
 						<input type="checkbox" checked="checked" name="remember"> Remember me
 					  </label>
 					</div>
 
 					<div class="container" style="background-color:#f1f1f1">
+					  <button type="button" onclick="" class="registerbtn">Register Now</button>
 					  <button type="button" onclick="document.getElementById('modalMyAccount').style.display='none'" class="cancelbtn">Cancel</button>
-					  <span class="psw">Forgot <a href="#">password?</a></span>
+					  <span class="psw"><a href="#">Forgot password?</a></span>
 					</div>
 				  </form>
 				</div>
